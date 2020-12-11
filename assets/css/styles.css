@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    --primary-app: #F6E000;
+    --text: #505050;
+
+    --padding-container: 3em;
+}
+
+* {
+    transition: all .5s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, li, span, h1, h2, h3, h4, h5, h6 {
+    color: var(--text);
+}
+
+html {
+    font-size: 18px;
+}
+
+
+.slide-left-leave-active,
+.slide-left-enter-active,
+.fade-leave-active,
+.fade-enter-active {
+  transition: all .5s;
+}
+.slide-left-enter {
+  transform: translate(100%, 0);
+}
+.slide-left-leave-to {
+  transform: translate(97.5%, 0);
+}
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}
+
+.container-custom {
+    width: 100%;
+    padding-right: var(--padding-container);
+    padding-left: var(--padding-container);
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-size: cover;
+}
+
+.page {
+    height: 100vh;
+}
+
+#home {
+    background-image: url("~assets/images/bg.png");
+}
+#about {
+    background-image: url("~assets/images/bg-about.png");
+}
+#achievement {
+    background-image: url("~assets/images/bg-achievement.png");
+}
+#education {
+    background-image: url("~assets/images/bg-education.png");
+}
+#experience {
+    background-image: url("~assets/images/bg-experience.png");
+}
+#contact {
+    background-image: url("~assets/images/bg-contact.png");
+}
+
+.text-primary-app {
+    color: var(--primary-app);
+}
+.primary-bordered-bottom::after {
+    display: block;
+    content: '';
+    width: 47%;
+    height: 5px;
+    position: absolute;
+    right: 16px;
+    background: var(--primary-app);
+}
+.page .title.primary-bordered-bottom::after {
+    width: 20%;
+}
+
+.header {
+    z-index: 1;
+}
+.header .menu-toggle .nav-link .b-icon.bi {
+    font-size: 200% !important;
+}
+
+.home-messages {
+    font-weight: 400;
+}
+
+.menu {
+    position: fixed;
+    width: 325px;
+    right: 0;
+    background: rgba(80, 80, 80, .8);
+    backdrop-filter: blur(5px);
+    height: 100vh;
+    z-index: 9999;
+}
+.menu .menu-toggle {
+    position: absolute;
+    right: 16px;
+    top: 0;
+}
+.menu .menu-list .list-group-item,
+.menu-indicator .menu-list .list-group-item {
+    text-transform: uppercase;
+    background: transparent;
+    padding: 1rem 2.5rem;
+    font-size: 1.25rem;
+    border: none;
+}
+.menu .menu-list .list-group-item a,
+.menu-indicator .menu-list .list-group-item a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+.menu .menu-list .list-group-item a.active {
+    color: var(--primary-app);
+}
+.menu .menu-list .list-group-item a:not(.active):hover {
+    transform: translateX(7.5px);
+}
+
+.menu-indicator {
+    padding-left: var(--padding-container);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    left: 0;
+}
+.menu-indicator .menu-list {
+    align-items: center;
+    justify-content: center;
+}
+.menu-indicator .menu-list .list-group-item {
+    padding: .5rem 1rem;
+}
+.menu-indicator .menu-list .list-group-item a .indicator {
+    background: var(--text);
+    box-sizing: border-box;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    opacity: .7;
+}
+.menu-indicator .menu-list .list-group-item a.active .indicator {
+    border: 3px solid var(--text);
+    background: white;
+    height: 20px;
+    opacity: 1;
+    width: 20px;
+}
+
+#achievement .list-item,
+#education .list-item {
+    list-style: none;
+}
+#achievement .list-item,
+#education .list-item li {
+    position: relative;
+}
+#achievement .list-item li:first-child,
+#education .list-item li:first-child {
+    margin-bottom: 2rem;
+}
+
+#experience .carousel-indicators,
+#achievement .carousel-indicators {
+    justify-content:flex-end;
+    margin: 0;
+}
+#experience .carousel-indicators li,
+#achievement .carousel-indicators li {
+    background-color: var(--text);
+    outline: none;
+}
+#experience .carousel-caption,
+#achievement .carousel-caption {
+    padding: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.footer {
+    position: absolute;
+    padding: 32px 0;
+    width: 100%;
+    bottom: 0;
+}
+.footer .container-custom {
+    justify-content: flex-end;
+}
+.footer a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text);
+    font-size: 1.75rem;
+    margin: 0 12px;
+}
+.footer a:hover {
+    transform: scale(1.2);
+}
+
+#not-responsive-info {
+    background-color: var(--primary-app);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+    display: none;
+}
+
+@media screen and (max-width: 1080px) {
+    #page {
+        display: none;
+    }
+    #not-responsive-info {
+        display: flex;
+    }
+}
