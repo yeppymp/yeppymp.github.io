@@ -10,7 +10,7 @@
 
     <b-list-group class="menu-list">
       <b-list-group-item v-for="(m, i) in $store.state.menus" :key="i">
-        <nuxt-link :to="m.url">{{ m.name }}</nuxt-link>
+        <nuxt-link :to="m.url" @click.native="$store.commit('TOGGLE_MENU')">{{ m.name }}</nuxt-link>
       </b-list-group-item>
     </b-list-group>
   </div>

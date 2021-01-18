@@ -25,6 +25,10 @@ export default {
                     name: 'Experiences'
                 },
                 {
+                    url: '/portfolio',
+                    name: 'Portfolio'
+                },
+                {
                     url: '/contact',
                     name: 'Contact'
                 },

@@ -49,6 +49,9 @@ html {
     justify-content: space-between;
     background-size: cover;
 }
+.container-custom#portfolio {
+    display: block;
+}
 
 .page {
     height: 100vh;
@@ -76,6 +79,12 @@ html {
 .text-primary-app {
     color: var(--primary-app);
 }
+.text-secondary-app {
+    color: var(--text);
+}
+.text-primary-app {
+    color: var(--primary-app);
+}
 .primary-bordered-bottom::after {
     display: block;
     content: '';
@@ -91,6 +100,9 @@ html {
 
 .header {
     z-index: 1;
+}
+.header.bg-primary {
+    background-color: var(--primary-app) !important;
 }
 .header .menu-toggle .nav-link .b-icon.bi {
     font-size: 200% !important;
@@ -196,6 +208,54 @@ html {
     right: 0;
     left: 0;
     top: 0;
+}
+
+#portfolio {
+    background-color: #f2f2f2;
+    padding-bottom: 2em;
+    padding-top: 5em;
+}
+#portfolio * {
+    font-size: 0.9rem;
+}
+#portfolio > .nav {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    margin: 0.5rem 1rem;
+    padding: 0.5rem;
+}
+#portfolio > .nav .nav-link {
+    color: var(--text);
+    cursor: pointer;
+}
+#portfolio > .nav .nav-link.active,
+#portfolio > .nav .show > .nav-link {
+    background-color: var(--primary-app);
+}
+#portfolio > .tab-content {
+    background-color: #fff;
+    border-radius: 0.25rem;
+    padding: 1rem 0.5rem;
+    margin: 0.5rem 1rem;
+    max-height: 65vh;
+    overflow: auto;
+}
+#portfolio > .tab-content .grid-view {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0.75rem;
+    row-gap: 1rem;
+    display: grid;
+}
+#portfolio > .tab-content .grid-view .card-title {
+    font-weight: 600;
+}
+#portfolio > .tab-content .grid-view img {
+    object-fit: cover;
+    height: 200px;
+}
+#portfolio > .tab-content .grid-view .portfolio-description {
+    font-size: 0.8rem;
 }
 
 .footer {

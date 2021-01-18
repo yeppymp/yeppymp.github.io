@@ -1,9 +1,7 @@
 <template>
   <div>
     <div id="page">
-      <Header />
-
-      <MenuIndicator/>
+      <Header class="bg-primary" />
 
       <transition name="slide-left">
         <Menu v-if="$store.state.isMenuOpen" />
@@ -12,8 +10,6 @@
       <transition name="fade">
         <Nuxt />
       </transition>
-
-      <Footer />
     </div>
 
     <NotResponsiveInfo />
