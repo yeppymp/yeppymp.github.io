@@ -104,11 +104,11 @@ export default {
               title: "Human Resource Information System",
               descriptions: "HRIS is a website project ,i made it with my team and i as a Front End Developer. This project developed more than 7 month from July 2018 until finished in February 2019. Used for Human Resources System in Big Company.",
             },
-            {
-              image_url: "birthday.png",
-              title: "Birthday Present",
-              descriptions: "Birthday Greeting Website, this is actually my greeting for my ex girlfriend's birthday. Because we aren't in the same city, so i confuse how say 'happy birthday' to her romantically so i made this game website, there is romantic song, message and other animation for amaze her and make her happy.",
-            },
+//            {
+//              image_url: "birthday.png",
+//              title: "Birthday Present",
+//              descriptions: "Birthday Greeting Website, this is actually my greeting for my ex girlfriend's birthday. Because we aren't in the same city, so i confuse how say 'happy birthday' to her romantically so i made this game website, there is romantic song, message and other animation for amaze her and make her happy.",
+//            },
             {
               image_url: "esynergy/coming_soon.png",
               title: "e-Synergy",
