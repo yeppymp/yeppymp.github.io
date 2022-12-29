@@ -318,7 +318,7 @@ html {
 
     .home-messages {
         font-size: 1.5rem !important;
-        color: white;
+        color: var(--text) !important;
     }
     .home-messages .text-primary-app {
         color: var(--text) !important;
