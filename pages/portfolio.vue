@@ -39,7 +39,7 @@
       </template>
     </div>
 
-    <div class="text-center my-3">
+    <div class="navigation text-center my-3">
       <nuxt-link to="/" class="text-secondary-app text-decoration-none">
         &lt; Back to Home
       </nuxt-link>

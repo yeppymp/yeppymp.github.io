@@ -12,7 +12,7 @@
         yeppymp@gmail.com &nbsp; <font-awesome-icon :icon="['fas', 'envelope']" />
       </p>
       <p class="text-right">
-        Tangerang, Indonesia &nbsp; <font-awesome-icon :icon="['fas', 'map-marker-alt']" />
+        Cirebon, Indonesia &nbsp; <font-awesome-icon :icon="['fas', 'map-marker-alt']" />
       </p>
     </div>
   </div>

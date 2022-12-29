@@ -287,11 +287,143 @@ html {
     display: none;
 }
 
-@media screen and (max-width: 1080px) {
+/* @media screen and (max-width: 1080px) {
     #page {
         display: none;
     }
     #not-responsive-info {
         display: flex;
+    }
+} */
+
+@media screen and (max-width: 1280px) {
+    #home {
+        background-position: -9rem 0;
+    }
+    #about,
+    #achievement,
+    #education,
+    #experience,
+    #contact {
+        background: white;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .menu-indicator {
+        display: none;
+    }
+
+    .home-messages {
+        font-size: 1.5rem !important;
+        color: white;
+    }
+    .home-messages .text-primary-app {
+        color: var(--text) !important;
+    }
+    #home .primary-bordered-bottom::after {
+        background: var(--text);
+    }
+
+    #about .title {
+        font-size: 1.25rem;
+    }
+    #about .col-6:first-child {
+        display: none;
+    }
+    #about .col-6:last-child {
+        flex-basis: unset;
+        max-width: unset;
+    }
+    #about p {
+        font-size: 0.85rem;
+    }
+
+    #education .title {
+        font-size: 1.25rem;
+    }
+    #education .col-6:first-child {
+        display: none;
+    }
+    #education .col-6:last-child {
+        flex-basis: unset;
+        max-width: unset;
+    }
+    #education h4 {
+        font-size: 1.25rem;
+    }
+    #education p {
+        font-size: 1rem;
+    }
+
+    #achievement .title {
+        font-size: 1.25rem;
+    }
+    #achievement .col-6:first-child {
+        display: none;
+    }
+    #achievement .col-6:last-child {
+        flex-basis: unset;
+        max-width: unset;
+    }
+    #achievement h4 {
+        font-size: 1rem;
+    }
+    #achievement p {
+        font-size: 0.85rem;
+    }
+    #achievement .carousel-inner {
+        height: 35vh;
+    }
+
+    #experience .title {
+        font-size: 1.25rem;
+    }
+    #experience .col-6:first-child {
+        display: none;
+    }
+    #experience .col-6:last-child {
+        flex-basis: unset;
+        max-width: unset;
+    }
+    #experience h4 {
+        font-size: 1rem;
+    }
+    #experience p {
+        font-size: 0.85rem;
+    }
+    #experience .carousel-inner {
+        height: 30vh;
+    }
+
+    #contact .title {
+        font-size: 1.25rem;
+    }
+    #contact .col-6:first-child {
+        display: none;
+    }
+    #contact .col-6:last-child {
+        flex-basis: unset;
+        max-width: unset;
+    }
+    #contact p {
+        font-size: 1rem;
+    }
+    #contact .carousel-inner {
+        height: 30vh;
+    }
+
+    #portfolio.container-custom {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    #portfolio .navigation {
+        background-color: #f2f2f2;
+        padding: 1rem 0;
+    }
+    #portfolio > .tab-content .grid-view {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
