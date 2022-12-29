@@ -41,8 +41,8 @@
 
     <div class="text-center my-3">
       <nuxt-link to="/" class="text-secondary-app text-decoration-none">
-        < Back to Home</nuxt-link
-      >
+        &lt; Back to Home
+      </nuxt-link>
     </div>
   </div>
 </template>
@@ -62,17 +62,17 @@ export default {
             {
               image_url: "vote.png",
               title: "Voting Online",
-              descriptions: "During my Final Task in Vocational Highschool I built android application that used for voting needs, developed using hybrid technology",
+              descriptions: "During my Final Task in Vocational Highschool I built android application that used for voting needs, developed using AngularJS",
             },
             {
               image_url: "quotes_app_half.png",
               title: "Quotes App",
-              descriptions: "Quotes App used for get the random daily quotes from many motivational people, i made this app when i'm in highschool for an assignment.",
+              descriptions: "Quotes App used for get the random daily quotes from many motivational people. By using Android Studio (Java) and free quotes API i made this app when i was in highschool for an assignment.",
             },
             {
               image_url: "homepage.jpg",
               title: "Home Page",
-              descriptions: "This design used for home page a website, i made this just for improve my web design skill",
+              descriptions: "This design used for home page a website, i made this just for exploring my web design skill",
             },
             {
               image_url: "login1.jpg",
@@ -82,27 +82,27 @@ export default {
             {
               image_url: "login2.jpg",
               title: "Login Page 2",
-              descriptions: "I made this design is just for upgrade web design skill with newest technology",
+              descriptions: "I made this design is just for exploring my web design skill with newest technology",
             },
             {
               image_url: "login3.jpg",
               title: "Login Page 3",
-              descriptions: "I made this when i have a team for build a website, and for upgrade my personal skills",
+              descriptions: "I made this just for exploring my design & frontend skills",
             },
             {
               image_url: "sqtar.png",
               title: "Sqtar",
-              descriptions: "This is the website about event, unfortunately my startup team has disbanded. I'm as Front End Developer in the team",
+              descriptions: "Consist of several youth that want to built a startup. We create this website about creating or exploring event, concert, talks and etc. Unfortunately my startup team has disbanded. I was a Front End Developer in the team",
             },
             {
               image_url: "alpha_pos.png",
               title: "Alpha POS",
-              descriptions: "I just know a litle bit of this project, because i just slicing the design into the website. But they called Alpha POS. I think is use for the cafe or restaurant.",
+              descriptions: "I just know a litle bit of this private project, because i just slicing the design into the website using HTML, CSS, JS. They called Alpha POS. I think it is used for F&B merchant",
             },
             {
               image_url: "hris.png",
-              title: "Human Resource Information System",
-              descriptions: "HRIS is a website project ,i made it with my team and i as a Front End Developer. This project developed more than 7 month from July 2018 until finished in February 2019. Used for Human Resources System in Big Company.",
+              title: "Human Resource Information System (HRIS)",
+              descriptions: "HRIS is a private web project, i was Front End Developer in the team. This project developed more than 7 month from July 2018 until finished in February 2019. Used for HR System in Big Company.",
             },
 //            {
 //              image_url: "birthday.png",
@@ -112,32 +112,47 @@ export default {
             {
               image_url: "esynergy/coming_soon.png",
               title: "e-Synergy",
-              descriptions: "Esynergy is a learning application about property learning, marketing, bussiness also has a product or tools to sell. This application was designed by me as a Designer and Front-end Developer, you can see application from this link <a href='http://esynergy.id/' target='_blank'>esynergy</a>",
+              descriptions: "Esynergy is a learning application about property learning, marketing, bussiness also has a product or tools to sell. I was Designer and Front-end Developer  in this private project.",
             },
             {
               image_url: "mkt/dashboard.png",
               title: "Marketing Tools",
-              descriptions: "It's a tool for helping marketing store prospect data easily, delete or closing the prospect with in the applications, and company can blast their project to selected prospect data that already stored. This application was made by my team and i am as a Front-end Developer.",
+              descriptions: "It's a tool for helping marketing store prospect data easily, delete or closing the prospect with in the applications, and company can blast their project to selected prospect data that already stored. I was Front-end Developer in this private project.",
             },
             {
                 image_url: "bcc/invoice_email.png",
-              title: "Bandung Champion City",
-              descriptions: "I built a dashboard application for admin and cashier which is to manage selling ticket of BCC, buying or organize the ticket system. This application was designed by me as a Designer and Front-end Developer, you can see application from <a href='http://championcity.co.id/' target='_blank'>this link</a>",
+              title: "Bandung Champion City (BCC)",
+              descriptions: "We built a dashboard application for admin and cashier which is to manage selling ticket of BCC, buying or organize ticketing system. I was Designer and Front-end Developer in this project. <a href='http://championcity.co.id/' target='_blank'>Explore Bandung Champion City</a>",
             },
             {
                 image_url: "cari_aman/Home.png",
                 title: "Cari Aman",
-                descriptions: "It's a web application for helping people to find secure site, phone number, or even an bank account, also there is a list of sites, phone number, or bank account that proved it's a fraud account. This application was made by my team and i am as a Designer and Front-end Developer. This application actually made in order to take a web competition.",
+                descriptions: "It's a web application for helping people to find secure site, phone number, or even an bank account, also there is a list of sites, phone number, or bank account that proved it's a fraud account. I am as a Designer and Front-end Developer in this Project. This project actually made in order to compete a web competition.",
             },
             {
                 image_url: "dca.png",
                 title: "Dicicil Aja - Adira Finance",
-                descriptions: "It is a rebuild website of dicicilaja.com from old tech to newer tech stack. It has been rebuilt using Laravel and VueJS. There is around 8 developers on this project, i am as Front-end Developer. See the website on this <a href='https://dicicilaja.com' target='_blank'>link</a>",
+                descriptions: "It is a rebuild of user-facing website from dicicilaja.com.  Changing old tech stack & design to the latest, it has been rebuilt using Laravel and VueJS. There is around 8 developers on this project, i am as Front-end Developer. <a href='https://dicicilaja.com' target='_blank'>See dicicilaja website</a>",
             },
             {
                 image_url: "remitpro.png",
                 title: "RemitPro - Digiasia",
-                descriptions: "It is a rebuild & redesign website of remitpro.id from old tech & design to newer tech stack. It has been rebuilt using NodeJS and NuxtJS with microservices architecture. There is 5 developers on this project, i am as Front-end Developer. This project is still running, maybe on production on Feb 2021, See the website on this <a href='https://remitpro.id' target='_blank'>link</a>",
+                descriptions: "It is a rebuild & redesign admin website of remitpro.id. Changing old tech stack & design to the latest, it has been rebuilt using NodeJS and NuxtJS with micro-services architecture. There is 5 developers on this project, i am as Front-end Developer. <a href='https://remitpro.id' target='_blank'>See RemitPro website</a>",
+            },
+            {
+                image_url: "daikin.png",
+                title: "Daikin - e-Commerce",
+                descriptions: "This is e-commerce project from Daikin Indonesia. By using Laravel and separate frontend using VueJS we build this e-commerce. I was Front-end Developer in the team. <a href='https://www.daikin.co.id/' target='_blank'>See Daikin Commerce</a>",
+            },
+            {
+                image_url: "flona.png",
+                title: "Flona - e-Commerce",
+                descriptions: "It is a rebuild & redesign e-commerce website of Flona store. Changing old tech stack & design to the latest, it has been rebuilt using Laravel and separate frontend using NuxtJS. I was Front-end Developer in the project. <a href='https://flona.store/' target='_blank'>See Flona Commerce</a>",
+            },
+            {
+                image_url: "cbt.png",
+                title: "Computer Based Test (CBT)",
+                descriptions: "It is Computer-Based Test for midle / high school. When pandemic covid-19 arise, most school in Indonesia is have to do online learning, and in order to the exam using proper CBT system. Me and my teacher created this project, then sell it to the school if they need it.",
             },
           ],
         },
@@ -149,7 +164,7 @@ export default {
             {
               image_url: "quotes_app_half.png",
               title: "Quotes App UI",
-              descriptions: "Quotes App used for get the random daily quotes from many motivational people, i made this UI app when i'm in highschool for an assignment.",
+              descriptions: "Quotes App used for get the random daily quotes from many motivational people. By using Adobe XD i designed this app when i was in highschool for an assignment.",
             },
             {
               image_url: "homepage.jpg",
@@ -174,17 +189,17 @@ export default {
             {
               image_url: "esynergy/coming_soon.png",
               title: "e-Synergy",
-              descriptions: "Esynergy is a learning application about property learning, marketing, bussiness also has a product or tools to sell. This application was designed by me as a UI Designer, you can see application from this link <a href='http://esynergy.id/' target='_blank'>esynergy</a>",
+              descriptions: "Esynergy is a learning application about property learning, marketing, bussiness also has a product or tools to sell. I use Adobe XD to design the UI in this private project.",
             },
             {
                 image_url: "bcc/invoice_email.png",
                 title: "Bandung Champion City",
-                descriptions: "I built a UI dashboard application for admin and cashier which is to manage selling ticket of BCC, buying or organize the ticket system., you can see application from <a href='http://championcity.co.id/' target='_blank'>this link</a>",
+                descriptions: "We built a dashboard application for admin and cashier which is to manage selling ticket of BCC, buying or organize ticketing system. By using Adobe XD i designed this UI. <a href='http://championcity.co.id/' target='_blank'>Explore Bandung Champion City</a>",
             },
             {
                 image_url: "cari_aman/Home.png",
                 title: "Cari Aman",
-                descriptions: "It's a web application for helping people to find secure site, phone number, or even an bank account, also there is a list of sites, phone number, or bank account that proved it's a fraud account. This application was made by my team and i am as a UI Designer. This application actually made in order to take a web competition.",
+                descriptions: "It's a web application for helping people to find secure site, phone number, or even an bank account, also there is a list of sites, phone number, or bank account that proved it's a fraud account. It was designed by me using Adobe XD. This project actually made in order to compete a web competition.",
             },
             {
                 image_url: "social_controlling/1. Login.png",

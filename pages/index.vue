@@ -15,9 +15,8 @@ export default {
   data() {
     return {
       messages: [
-        "<span class='text-primary-app'>HELLO</span> MY NAME IS YEPPY",
+        "<span class='text-primary-app'>HELLO!</span> MY NAME IS <span class='text-primary-app'>YEPPY</span>",
         "<span class='text-primary-app'>I AM A</span> FRONTEND DEVELOPER",
-        "<span class='text-primary-app'>AND ALSO <br> </span> UI / UX DESIGNER",
       ],
       inst: {},
     };

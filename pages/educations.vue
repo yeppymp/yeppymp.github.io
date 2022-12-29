@@ -8,11 +8,12 @@
       <ul class="list-item">
         <li class="text-right">
           <h4><strong>SMK Negeri 1 Cirebon</strong></h4>
-          <p>Software Engineering, 2015 - 2018</p>
+          <p class="mb-0">Software Engineering, 2015 - 2018</p>
+          <p class="text-muted"><em>Outstanding Student</em></p>
         </li>
         <li class="text-right">
           <h4><strong>Universitas Mercu Buana</strong></h4>
-          <p class="mb-0">Computer Science, 2018 - Now</p>
+          <p class="mb-0">Bachelor Computer Science, 2018 - 2022</p>
           <p class="text-muted"><em>International Class Student</em></p>
         </li>
       </ul>
