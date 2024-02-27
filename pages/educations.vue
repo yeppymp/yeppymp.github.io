@@ -14,7 +14,7 @@
         <li class="text-right">
           <h4><strong>Universitas Mercu Buana</strong></h4>
           <p class="mb-0">Bachelor Computer Science, 2018 - 2022</p>
-          <p class="text-muted"><em>International Class Student</em></p>
+          <p class="text-muted"><em>International Class Student</em> - GPA 3.84</p>
         </li>
       </ul>
     </div>

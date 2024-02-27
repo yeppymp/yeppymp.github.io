@@ -6,6 +6,11 @@ export const state = () => ({
             time: 'Sep 2021 - Now'
         },
         {
+            title: 'Fulltime Employee',
+            description: 'Front-end Developer, Kappa.London',
+            time: 'Feb 2023 - Sep 2023'
+        },
+        {
             title: 'Freelancer',
             description: 'Front-end Developer & UI Designer',
             time: 'June 2016 - Sep 2021'

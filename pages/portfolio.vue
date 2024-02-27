@@ -154,6 +154,46 @@ export default {
                 title: "Computer Based Test (CBT)",
                 descriptions: "It is Computer-Based Test for midle / high school. When pandemic covid-19 arise, most school in Indonesia is have to do online learning, and in order to the exam using proper CBT system. Me and my teacher created this project, then sell it to the school if they need it.",
             },
+            {
+                image_url: "bryant-dental.png",
+                title: "Bryant Dental",
+                descriptions: "Bryant Dental was created by dentists to solve problems they had faced, by using technology to overcome problems in unprecedented ways. Bryant.dental project are honorable Awwwards nominee as an interactive 3D modern website. <a href='https://bryant.dental/' target='_blank'>See Website</a>",
+            },
+            {
+                image_url: "theloupescompany.png",
+                title: "The Loupes Company",
+                descriptions: "The Loupes Company is part of Bryant Dental, It is more general dental loupes e-commerce not only brand that comes from Bryant Dental <a href='https://theloupescompany.com' target='_blank'>See Website</a>",
+            },
+            {
+                image_url: "rea.png",
+                title: "REA Kaltim Plantation",
+                descriptions: "Company profile website of REA the Palm Oil Company. I am freelancer at Communic 8 Agency, and i am maintain this website. <a href='https://rea.communic8.id/' target='_blank'>See Website</a>, another website of REA Holdings <a href='https://rea.co.uk/' target='_blank'>See Website</a>",
+            },
+            {
+                image_url: "communic8agency.png",
+                title: "Communic 8 Agency",
+                descriptions: "Company profile website of Communic 8 Agency. I am freelancer at Communic 8 Agency, and i am maintain this website. <a href='https://communic8agency.com/' target='_blank'>See Website</a>",
+            },
+            {
+                image_url: "digibuzz.png",
+                title: "Digibuzz",
+                descriptions: "Company profile website of Digibuzz. I am freelancer at Communic 8 Agency, and i am maintain this website. <a href='http://digibuzz.co.id/' target='_blank'>See Website</a>",
+            },
+            {
+                image_url: "bios44.png",
+                title: "BIOS 44",
+                descriptions: "Company profile website of BIOS44. I am freelancer at Communic 8 Agency, and i am maintain this website. <a href='http://bios44.com/' target='_blank'>See Website</a>",
+            },
+            {
+                image_url: "undangan-web.png",
+                title: "Undangan Web",
+                descriptions: "Wedding Website, Undangan Web. <a href='https://yeppymp.github.io/undangan_gresi_yoga/' target='_blank'>See Website</a>",
+            },
+            {
+                image_url: "findora.png",
+                title: "Findora Internusa",
+                descriptions: "E-Commerce website of Findora. This project still on going, but here is the company profile <a href='http://www.findora.com' target='_blank'>See Website</a>",
+            },
           ],
         },
         {
